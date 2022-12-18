@@ -8,7 +8,7 @@
       scanf("%d",&palindrome[0]);
       for(i=palindrome[0]; palindrome[0]!=0; palindrome[0]/=10)
       {
-      
+      //test line for git
         rem=palindrome[0]%10;
         sum=(sum*10)+rem;
       }
