@@ -1,4 +1,4 @@
-  // Write a C program to retrun only the unique rows from a given binary matrix.
+  // Write a C program to return only the unique rows from a given binary matrix.
 
    #include <stdio.h>
    void main()
