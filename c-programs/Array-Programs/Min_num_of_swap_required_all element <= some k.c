@@ -1,4 +1,4 @@
-   //Write a C program to find minumum number of swaps required to gather all elements less than or equal to k. (where, k is some whole number...)
+   //Write a C program to find minimum number of swaps required to gather all elements less than or equal to k. (where, k is some whole number...)
    
    #include <stdio.h>
    void main()
