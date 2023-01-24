@@ -1,5 +1,5 @@
 
-// 10. Write a C program to print all perfect numbers in given range using the function.
+// Write a C program to print all perfect numbers in given range using the function.
 
 #include <stdio.h>
 int perfect_num(int start, int end)
