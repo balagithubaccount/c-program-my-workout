@@ -1,5 +1,4 @@
-//Write a C program to read a string through keyboard and sort it using bubble sort depends only first character .
-
+//Write a C program to read a string through keyboard and sort it using bubble sort.
 #include <stdio.h>
 int n=100;
 void strcopy(char* ptr2, char* ptr1)
