@@ -34,8 +34,9 @@ void main()
 /*
 Sample Output:
 
-Input the String: www.c-programming-string-programs.com/<.
+Input the String: Bucky#$_123
 
-Given String is: www.c-programming-string-programs.com/<.
-After removing the Output String: wwwcprogrammingstringprogramscom
+Given String is: Bucky#$_123
+After removing the Output String: Bucky
+
 */
