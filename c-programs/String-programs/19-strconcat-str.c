@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 int size = 100;
-int string_concat(char * ptr1, char* ptr2)
 {
     while(*ptr1 != '\0')
     {
