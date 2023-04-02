@@ -56,7 +56,7 @@ Input the 9 elements:
 5
 7
 9
-Given Matrix is: 
+Given Matrix is:
 2       4       6
 8       1       3
 5       7       9
