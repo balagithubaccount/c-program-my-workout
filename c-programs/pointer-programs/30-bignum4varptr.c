@@ -1,11 +1,11 @@
-// Write a C program to find the biggest number in four variables
+// Write a C program to find the biggest number in four variables using pointer.
 
 #include <stdio.h>
 int main()
 {
    int a, b, c, d;
    int *A, *B, *C, *D;
-   A = &a, B = &b, C = &c, D = &c;
+   A = &a, B = &b, C = &c, D = &d;
    printf("Input the 4 values: ");
    scanf("%d%d%d%d", A, B, C, D);
 
@@ -29,8 +29,8 @@ int main()
    return 0;
 }
 /*
-   Output:
+Sample Output:
 
-   21 34 54 65
-   big is 65
+Input the 4 values: 21 34 54 65
+big is 65
 */
