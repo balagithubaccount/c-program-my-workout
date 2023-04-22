@@ -1,4 +1,4 @@
-//  To input month number and print number of days in that monthE
+//  To input month number and print number of days in that month.
 #include <stdio.h>
 void main()
 {
