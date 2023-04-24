@@ -21,4 +21,3 @@ void main()
     printf("A given number is Zero\n");
    }
 }
-___
