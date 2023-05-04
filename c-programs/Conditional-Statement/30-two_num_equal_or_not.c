@@ -1,6 +1,6 @@
 
 
-// Given two numbers equal or not
+// Write a C program to find Given two numbers equal or not
 
 #include <stdio.h>
 int main()
@@ -10,14 +10,10 @@ int main()
 	scanf("%d", &n1);
 	printf("Input a second number: ");
 	scanf("%d", &n2);
-	if (n1 == n2)
-	{
-		printf("\nGiven numbers are equal.\n");
-	}
-	else
-	{
-		printf("Given numbers are not equal.\n");
-	}
+
+	(n1 == n2) ? printf("\nGiven numbers are equal.\n") : printf("Given numbers are not equal.\n");
+	
+	return 0;
 }
 
 /*
