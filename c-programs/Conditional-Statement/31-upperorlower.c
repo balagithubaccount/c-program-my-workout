@@ -1,4 +1,4 @@
-// 4. character is uppercase or lowercase
+// 4. Write a C program to check whether a given character is uppercase or lowercase
 
 #include <stdio.h>
 void main()
