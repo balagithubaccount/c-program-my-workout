@@ -1,4 +1,4 @@
-//  week number to print week day.
+// Write a C program to get the week number to print week day.
 
 #include <stdio.h>
 void main()
