@@ -41,7 +41,7 @@ Enter the row value: 11
 + - + - + - + - + - + 
 - - - - - - - - - - - 
 
-Sample Output: 2
+Sample Output: 2       
 
 Enter the row value: 8
 - - - - - - - -
