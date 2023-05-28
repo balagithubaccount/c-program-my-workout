@@ -1,4 +1,4 @@
-// n terms of odd natural number and teir sum
+// n terms of odd natural number and their sum
 #include <stdio.h>
 void main()
 {
