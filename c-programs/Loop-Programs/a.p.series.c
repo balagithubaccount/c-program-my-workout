@@ -30,3 +30,13 @@ void main()
   }
   printf("0=%d\n", sum);
 }
+
+/*
+Sample Output:
+
+Input the starting number: 1
+Input the number of terms: 10
+Input the difference: 4
+1+5+9+13+17+21+25+29+33+37+0=190
+
+*/
