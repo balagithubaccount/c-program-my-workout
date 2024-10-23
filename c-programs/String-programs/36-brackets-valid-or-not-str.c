@@ -100,6 +100,101 @@ int main()
     }
 }
 /*
+
+#include <stdio.h>
+
+int main()
+{
+
+	char str[] = "<[]{}<>()>{[]]}";
+	printf("Str = %s\n",str);
+
+	int i = 0,ind = 0;
+	int k,l,m,n;
+	k=l=m=n=0;
+	int res[50];
+	while(str[i] != '\0')
+	{
+		if(str[i] == '{')   // k
+		{
+			k++;
+			res[++ind] = '{';
+		}
+		else if(str[i] == '[')   // l
+		{
+			l++;
+			res[++ind] = '[';
+		}
+		else if(str[i] == '(')   // m
+		{
+			m++;
+			res[++ind] = '(';
+		}
+		else if(str[i] == '<')   // n
+		{
+			n++;
+			res[++ind] = '<';
+		}
+		else if(str[i] == '}')
+		{
+			if(res[ind] == '{')
+			{
+				k--;
+				ind--;
+			}
+			else {
+				goto END;
+			}
+		}
+		else if(str[i] == ']')
+		{
+			if(res[ind] == '[')
+			{
+				l--;
+				ind--;
+			}
+			else {
+				goto END;
+			}
+		}
+		else if(str[i] == ')')
+		{
+			if(res[ind] == '(')
+			{
+				m--;
+				ind--;
+			}
+			else {
+				goto END;
+			}
+		}
+		else if(str[i] == '>')
+		{
+			if(res[ind] == '<')
+			{
+				n--;
+				ind--;
+			}
+			else {
+				goto END;
+			}
+		}
+
+		i++;
+	}
+
+END:
+
+	if(k != 0 || l != 0 || m != 0 ||n != 0 || ind != 0)
+		printf("Invalid Input.\n");
+	else
+		printf("Valid Input.\n");
+
+		return 0;
+}
+*/
+
+/*
 Output:1
 
 Input a String: {[[]{}]}()()
