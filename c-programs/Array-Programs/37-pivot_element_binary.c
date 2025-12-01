@@ -4,7 +4,7 @@
    void main()
    {
      int size, i, start, end, mid, pivot,temp=0;
-     printf("Enter the array size: ");\
+     printf("Enter the array size: ");
      scanf("%d",&size);
      int arr[size];
      printf("Enter the %d Elements: ",size);

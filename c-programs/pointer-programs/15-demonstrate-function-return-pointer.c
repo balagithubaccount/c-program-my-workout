@@ -16,7 +16,8 @@ int main()
 
     int* result = function(&numa, &numb);
 
-    printf("\nLargest number is: %d\n", *result);
+    // printf("\nLargest number is: %d\n", *result);
+    printf("\nLargest number is: %d\n", *(function(&numa, &numb)));
 
     return 0;
 }

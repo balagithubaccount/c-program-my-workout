@@ -41,7 +41,7 @@
      printf("\n");
    }
 
-   
+   /*
    Output:
 
    Enter the array size: 6

@@ -11,16 +11,15 @@ void main()
     fgets(string, sizeof(string), stdin);
     printf("Length of the string is: %d\n", strlength(string));
 }
-int strlength(char str[])
+int strlength(char *ptr)
 {
-    char *ptr = str;
     int len = 0;
     while (*ptr != '\0')
     {
         len++;
         ptr++;
     }
-    return (len - 1);
+    return len;
 }
 /*
 Sample Output:

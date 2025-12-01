@@ -19,11 +19,11 @@ int strlength(char str[])
         len++;
         ptr++;
     }
-    return (len - 1);
+    return (len);
 }
 /*
 Sample Output:
 
 Input the string: Hello
-Length of the string is: 5
+Length of the string is: 6
 */

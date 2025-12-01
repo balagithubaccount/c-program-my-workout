@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void get_element_fint_large_element(int *ptr, int size)
+void get_element_find_large_element(int *ptr, int size)
 {
     int large = -1;
     if (ptr == NULL)
@@ -31,7 +31,7 @@ int main()
     printf("Input total number of elements: ");
     scanf("%d", &n);
 
-    get_element_fint_large_element((int *)malloc(n * sizeof(int)), n);
+    get_element_find_large_element((int *)malloc(n * sizeof(int)), n);
 }
 
 /*
